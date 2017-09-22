@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SportAuthenticationModelStoreContainer" CdmEntityContainer="DirectoryEntities">
+    <EntitySetMapping Name="Mandator">
+      <EntityTypeMapping TypeName="SportAuthenticationModel.Mandator">
+        <MappingFragment StoreEntitySet="Mandator">
+          <ScalarProperty Name="UID" ColumnName="UID" />
+          <ScalarProperty Name="SysInsertTime" ColumnName="SysInsertTime" />
+          <ScalarProperty Name="SysInsertAccount" ColumnName="SysInsertAccount" />
+          <ScalarProperty Name="SysUpdateTime" ColumnName="SysUpdateTime" />
+          <ScalarProperty Name="SysUpdateAccount" ColumnName="SysUpdateAccount" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="EKEY" ColumnName="EKEY" />
+          <ScalarProperty Name="IKEY" ColumnName="IKEY" />
+          <ScalarProperty Name="Locked" ColumnName="Locked" />
+          <ScalarProperty Name="LockedDate" ColumnName="LockedDate" />
+          <ScalarProperty Name="LockedComment" ColumnName="LockedComment" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MandatorSetting">
+      <EntityTypeMapping TypeName="SportAuthenticationModel.MandatorSetting">
+        <MappingFragment StoreEntitySet="MandatorSetting">
+          <ScalarProperty Name="UID" ColumnName="UID" />
+          <ScalarProperty Name="SysInsertTime" ColumnName="SysInsertTime" />
+          <ScalarProperty Name="SysInsertAccount" ColumnName="SysInsertAccount" />
+          <ScalarProperty Name="SysUpdateTime" ColumnName="SysUpdateTime" />
+          <ScalarProperty Name="SysUpdateAccount" ColumnName="SysUpdateAccount" />
+          <ScalarProperty Name="MandatorUID" ColumnName="MandatorUID" />
+          <ScalarProperty Name="Key" ColumnName="Key" />
+          <ScalarProperty Name="Value" ColumnName="Value" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Session">
+      <EntityTypeMapping TypeName="SportAuthenticationModel.Session">
+        <MappingFragment StoreEntitySet="Session">
+          <ScalarProperty Name="UID" ColumnName="UID" />
+          <ScalarProperty Name="SysInsertTime" ColumnName="SysInsertTime" />
+          <ScalarProperty Name="SysInsertAccount" ColumnName="SysInsertAccount" />
+          <ScalarProperty Name="SysUpdateTime" ColumnName="SysUpdateTime" />
+          <ScalarProperty Name="SysUpdateAccount" ColumnName="SysUpdateAccount" />
+          <ScalarProperty Name="UserUID" ColumnName="UserUID" />
+          <ScalarProperty Name="AllocationDate" ColumnName="AllocationDate" />
+          <ScalarProperty Name="IntendedExpirationDate" ColumnName="IntendedExpirationDate" />
+          <ScalarProperty Name="ExpiratedDate" ColumnName="ExpiratedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="User">
+      <EntityTypeMapping TypeName="SportAuthenticationModel.User">
+        <MappingFragment StoreEntitySet="User">
+          <ScalarProperty Name="UID" ColumnName="UID" />
+          <ScalarProperty Name="SysInsertTime" ColumnName="SysInsertTime" />
+          <ScalarProperty Name="SysInsertAccount" ColumnName="SysInsertAccount" />
+          <ScalarProperty Name="SysUpdateTime" ColumnName="SysUpdateTime" />
+          <ScalarProperty Name="SysUpdateAccount" ColumnName="SysUpdateAccount" />
+          <ScalarProperty Name="MandatorUID" ColumnName="MandatorUID" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="PasswordHash" ColumnName="PasswordHash" />
+          <ScalarProperty Name="Locked" ColumnName="Locked" />
+          <ScalarProperty Name="LockedDate" ColumnName="LockedDate" />
+          <ScalarProperty Name="LockedComment" ColumnName="LockedComment" />
+          <ScalarProperty Name="AccessFailedCount" ColumnName="AccessFailedCount" />
+          <ScalarProperty Name="CultureInfo" ColumnName="CultureInfo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

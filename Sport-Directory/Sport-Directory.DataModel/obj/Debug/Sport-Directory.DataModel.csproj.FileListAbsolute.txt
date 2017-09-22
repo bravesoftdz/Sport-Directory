@@ -1,0 +1,4 @@
+C:\Users\JH\Source\Repos\Sport-Directory\Sport-Directory\Sport-Directory.DataModel\bin\Debug\Sport-Directory.DataModel.dll
+C:\Users\JH\Source\Repos\Sport-Directory\Sport-Directory\Sport-Directory.DataModel\bin\Debug\Sport-Directory.DataModel.pdb
+C:\Users\JH\Source\Repos\Sport-Directory\Sport-Directory\Sport-Directory.DataModel\obj\Debug\Sport-Directory.DataModel.dll
+C:\Users\JH\Source\Repos\Sport-Directory\Sport-Directory\Sport-Directory.DataModel\obj\Debug\Sport-Directory.DataModel.pdb

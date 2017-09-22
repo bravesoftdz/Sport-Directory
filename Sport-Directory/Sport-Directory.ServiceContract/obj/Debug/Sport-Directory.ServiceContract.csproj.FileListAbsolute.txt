@@ -1,0 +1,9 @@
+C:\Users\JH\Source\Repos\Sport-Directory\Sport-Directory\Sport-Directory.ServiceContract\bin\Debug\Sport-Directory.ServiceContract.dll
+C:\Users\JH\Source\Repos\Sport-Directory\Sport-Directory\Sport-Directory.ServiceContract\bin\Debug\Sport-Directory.ServiceContract.pdb
+C:\Users\JH\Source\Repos\Sport-Directory\Sport-Directory\Sport-Directory.ServiceContract\obj\Debug\Sport-Directory.ServiceContract.csprojResolveAssemblyReference.cache
+C:\Users\JH\Source\Repos\Sport-Directory\Sport-Directory\Sport-Directory.ServiceContract\obj\Debug\Sport-Directory.ServiceContract.dll
+C:\Users\JH\Source\Repos\Sport-Directory\Sport-Directory\Sport-Directory.ServiceContract\obj\Debug\Sport-Directory.ServiceContract.pdb
+C:\Users\JH\Source\Repos\Sport-Directory\Sport-Directory\Sport-Directory.ServiceContract\bin\Debug\Sport-Directory.Data.dll
+C:\Users\JH\Source\Repos\Sport-Directory\Sport-Directory\Sport-Directory.ServiceContract\bin\Debug\EntityFramework.dll
+C:\Users\JH\Source\Repos\Sport-Directory\Sport-Directory\Sport-Directory.ServiceContract\bin\Debug\Sport-Directory.Data.pdb
+C:\Users\JH\Source\Repos\Sport-Directory\Sport-Directory\Sport-Directory.ServiceContract\bin\Debug\EntityFramework.xml

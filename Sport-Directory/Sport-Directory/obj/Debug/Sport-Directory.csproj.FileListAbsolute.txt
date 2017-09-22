@@ -1,0 +1,5 @@
+C:\Users\JH\Source\Repos\Sport-Directory\Sport-Directory\Sport-Directory\bin\Debug\Sport-Directory.dll
+C:\Users\JH\Source\Repos\Sport-Directory\Sport-Directory\Sport-Directory\bin\Debug\Sport-Directory.pdb
+C:\Users\JH\Source\Repos\Sport-Directory\Sport-Directory\Sport-Directory\obj\Debug\Sport-Directory.csprojResolveAssemblyReference.cache
+C:\Users\JH\Source\Repos\Sport-Directory\Sport-Directory\Sport-Directory\obj\Debug\Sport-Directory.dll
+C:\Users\JH\Source\Repos\Sport-Directory\Sport-Directory\Sport-Directory\obj\Debug\Sport-Directory.pdb

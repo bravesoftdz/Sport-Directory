@@ -1,0 +1,10 @@
+C:\Users\JH\Source\Repos\Sport-Directory\Sport-Directory\Sport-Directory.Data\bin\Debug\Sport-Directory.Data.dll.config
+C:\Users\JH\Source\Repos\Sport-Directory\Sport-Directory\Sport-Directory.Data\bin\Debug\Sport-Directory.Data.dll
+C:\Users\JH\Source\Repos\Sport-Directory\Sport-Directory\Sport-Directory.Data\bin\Debug\Sport-Directory.Data.pdb
+C:\Users\JH\Source\Repos\Sport-Directory\Sport-Directory\Sport-Directory.Data\bin\Debug\EntityFramework.dll
+C:\Users\JH\Source\Repos\Sport-Directory\Sport-Directory\Sport-Directory.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\JH\Source\Repos\Sport-Directory\Sport-Directory\Sport-Directory.Data\bin\Debug\EntityFramework.xml
+C:\Users\JH\Source\Repos\Sport-Directory\Sport-Directory\Sport-Directory.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\JH\Source\Repos\Sport-Directory\Sport-Directory\Sport-Directory.Data\obj\Debug\Sport-Directory.Data.csprojResolveAssemblyReference.cache
+C:\Users\JH\Source\Repos\Sport-Directory\Sport-Directory\Sport-Directory.Data\obj\Debug\Sport-Directory.Data.dll
+C:\Users\JH\Source\Repos\Sport-Directory\Sport-Directory\Sport-Directory.Data\obj\Debug\Sport-Directory.Data.pdb

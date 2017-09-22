@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SportAuthenticationModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Mandator">
+    <Key>
+      <PropertyRef Name="UID" />
+    </Key>
+    <Property Name="UID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="SysInsertTime" Type="datetime" Nullable="false" />
+    <Property Name="SysInsertAccount" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="SysUpdateTime" Type="datetime" />
+    <Property Name="SysUpdateAccount" Type="uniqueidentifier" />
+    <Property Name="Title" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="EKEY" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="IKEY" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Locked" Type="bit" Nullable="false" />
+    <Property Name="LockedDate" Type="datetime" />
+    <Property Name="LockedComment" Type="varchar" MaxLength="2000" />
+  </EntityType>
+  <EntityType Name="MandatorSetting">
+    <Key>
+      <PropertyRef Name="UID" />
+    </Key>
+    <Property Name="UID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="SysInsertTime" Type="datetime" Nullable="false" />
+    <Property Name="SysInsertAccount" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="SysUpdateTime" Type="datetime" />
+    <Property Name="SysUpdateAccount" Type="uniqueidentifier" />
+    <Property Name="MandatorUID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Key" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Value" Type="varchar" MaxLength="500" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Session">
+    <Key>
+      <PropertyRef Name="UID" />
+    </Key>
+    <Property Name="UID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="SysInsertTime" Type="datetime" Nullable="false" />
+    <Property Name="SysInsertAccount" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="SysUpdateTime" Type="datetime" Nullable="false" />
+    <Property Name="SysUpdateAccount" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="UserUID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="AllocationDate" Type="datetime" Nullable="false" />
+    <Property Name="IntendedExpirationDate" Type="datetime" Nullable="false" />
+    <Property Name="ExpiratedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="UID" />
+    </Key>
+    <Property Name="UID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="SysInsertTime" Type="datetime" Nullable="false" />
+    <Property Name="SysInsertAccount" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="SysUpdateTime" Type="datetime" />
+    <Property Name="SysUpdateAccount" Type="uniqueidentifier" />
+    <Property Name="MandatorUID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Username" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Email" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="PasswordHash" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Locked" Type="bit" Nullable="false" />
+    <Property Name="LockedDate" Type="datetime" />
+    <Property Name="LockedComment" Type="varchar" MaxLength="2000" />
+    <Property Name="AccessFailedCount" Type="int" />
+    <Property Name="CultureInfo" Type="varchar" MaxLength="10" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__MandatorS__Manda__2B3F6F97">
+    <End Role="Mandator" Type="Self.Mandator" Multiplicity="1" />
+    <End Role="MandatorSetting" Type="Self.MandatorSetting" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Mandator">
+        <PropertyRef Name="UID" />
+      </Principal>
+      <Dependent Role="MandatorSetting">
+        <PropertyRef Name="MandatorUID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Session__UserUID__30F848ED">
+    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="Session" Type="Self.Session" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="UID" />
+      </Principal>
+      <Dependent Role="Session">
+        <PropertyRef Name="UserUID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__User__MandatorUI__286302EC">
+    <End Role="Mandator" Type="Self.Mandator" Multiplicity="1" />
+    <End Role="User" Type="Self.User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Mandator">
+        <PropertyRef Name="UID" />
+      </Principal>
+      <Dependent Role="User">
+        <PropertyRef Name="MandatorUID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SportAuthenticationModelStoreContainer">
+    <EntitySet Name="Mandator" EntityType="Self.Mandator" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MandatorSetting" EntityType="Self.MandatorSetting" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Session" EntityType="Self.Session" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="User" EntityType="Self.User" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__MandatorS__Manda__2B3F6F97" Association="Self.FK__MandatorS__Manda__2B3F6F97">
+      <End Role="Mandator" EntitySet="Mandator" />
+      <End Role="MandatorSetting" EntitySet="MandatorSetting" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Session__UserUID__30F848ED" Association="Self.FK__Session__UserUID__30F848ED">
+      <End Role="User" EntitySet="User" />
+      <End Role="Session" EntitySet="Session" />
+    </AssociationSet>
+    <AssociationSet Name="FK__User__MandatorUI__286302EC" Association="Self.FK__User__MandatorUI__286302EC">
+      <End Role="Mandator" EntitySet="Mandator" />
+      <End Role="User" EntitySet="User" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
