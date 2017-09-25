@@ -45,7 +45,14 @@ namespace Sport_Directory.Data
 
         public User GetUserInformation(Guid sessionUid)
         {
-            return _context.Session.FirstOrDefault(s => s.UID == sessionUid).User;
+            var session = _context.Session.FirstOrDefault(s => s.UID == sessionUid);
+
+            if(session == null)
+            {
+                throw new Exception("The session: " + sessionUid + " does not exists");
+            }
+
+            return session.User;
         }
     }
 }

@@ -1,0 +1,12 @@
+C:\Users\JH\Source\Repos\Sport-Directory\Sport-Directory\Sport-Directory.DataContracts\bin\Debug\Sport-Directory.DataContracts.dll.config
+C:\Users\JH\Source\Repos\Sport-Directory\Sport-Directory\Sport-Directory.DataContracts\bin\Debug\Sport-Directory.DataContracts.dll
+C:\Users\JH\Source\Repos\Sport-Directory\Sport-Directory\Sport-Directory.DataContracts\bin\Debug\Sport-Directory.DataContracts.pdb
+C:\Users\JH\Source\Repos\Sport-Directory\Sport-Directory\Sport-Directory.DataContracts\bin\Debug\EntityFramework.dll
+C:\Users\JH\Source\Repos\Sport-Directory\Sport-Directory\Sport-Directory.DataContracts\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\JH\Source\Repos\Sport-Directory\Sport-Directory\Sport-Directory.DataContracts\bin\Debug\Sport-Directory.Data.dll
+C:\Users\JH\Source\Repos\Sport-Directory\Sport-Directory\Sport-Directory.DataContracts\bin\Debug\Sport-Directory.Data.pdb
+C:\Users\JH\Source\Repos\Sport-Directory\Sport-Directory\Sport-Directory.DataContracts\bin\Debug\EntityFramework.xml
+C:\Users\JH\Source\Repos\Sport-Directory\Sport-Directory\Sport-Directory.DataContracts\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\JH\Source\Repos\Sport-Directory\Sport-Directory\Sport-Directory.DataContracts\obj\Debug\Sport-Directory.DataContracts.csprojResolveAssemblyReference.cache
+C:\Users\JH\Source\Repos\Sport-Directory\Sport-Directory\Sport-Directory.DataContracts\obj\Debug\Sport-Directory.DataContracts.dll
+C:\Users\JH\Source\Repos\Sport-Directory\Sport-Directory\Sport-Directory.DataContracts\obj\Debug\Sport-Directory.DataContracts.pdb

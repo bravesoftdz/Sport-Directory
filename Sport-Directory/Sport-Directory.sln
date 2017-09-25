@@ -3,13 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sport-Directory", "Sport-Directory\Sport-Directory.csproj", "{E28C097D-74AA-43DB-B1F9-30E9082B2577}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 Service", "02 Service", "{42A39633-A6DC-4F5B-BF2F-7D59BFF82CD6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 Data", "04 Data", "{C7A65954-9606-4B82-BD5B-63B635821ADD}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sport-Directory.Service", "Sport-Directory.Service\Sport-Directory.Service.csproj", "{82DE422E-E723-4CD0-8627-2DDF62B8A1CE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sport-Directory.ServiceContract", "Sport-Directory.ServiceContract\Sport-Directory.ServiceContract.csproj", "{CE0B5675-91B5-43DA-9AD7-04CEAFE78A11}"
 EndProject
@@ -17,20 +13,28 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sport-Directory.Data", "Spo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sport-Directory.DataModel", "Sport-Directory.DataModel\Sport-Directory.DataModel.csproj", "{BCCEAFB5-DBDD-4394-A5A2-4DC85DAA1747}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 Common", "05 Common", "{362E5D37-DDAB-443A-93C4-354A55FFD0FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sport-Directory.Common", "Sport-Directory.Common\Sport-Directory.Common.csproj", "{9BC8919E-D584-489F-AEC6-DE0DD4480070}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 Domain", "03 Domain", "{BDCA1AE0-DCDE-428A-A5D3-084F957F8893}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sport-Directoy.DomainObjects", "Sport-Directoy.DomainObjects\Sport-Directoy.DomainObjects.csproj", "{D64CA73B-6923-4A91-A0B1-01A3A0FDE7A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sport-Directory.Domain", "Sport-Directory.Domain\Sport-Directory.Domain.csproj", "{1CCA53FF-5CEE-4478-AD4F-8CF4FEEE1BEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sport-Directory.DomainContracts", "Sport-Directory.DomainContracts\Sport-Directory.DomainContracts.csproj", "{D33E21B1-670E-4C79-BA1A-387158B8FA9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sport-Directory.DataContracts", "Sport-Directory.DataContracts\Sport-Directory.DataContracts.csproj", "{06AB6B3E-984E-4E61-A8E6-CDF3D8E0E97C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sport-Directory.API", "Sport-Directory.API\Sport-Directory.API.csproj", "{219AC8D2-6668-4769-9540-B72FA2E5B19D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E28C097D-74AA-43DB-B1F9-30E9082B2577}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E28C097D-74AA-43DB-B1F9-30E9082B2577}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E28C097D-74AA-43DB-B1F9-30E9082B2577}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E28C097D-74AA-43DB-B1F9-30E9082B2577}.Release|Any CPU.Build.0 = Release|Any CPU
-		{82DE422E-E723-4CD0-8627-2DDF62B8A1CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{82DE422E-E723-4CD0-8627-2DDF62B8A1CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{82DE422E-E723-4CD0-8627-2DDF62B8A1CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{82DE422E-E723-4CD0-8627-2DDF62B8A1CE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CE0B5675-91B5-43DA-9AD7-04CEAFE78A11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CE0B5675-91B5-43DA-9AD7-04CEAFE78A11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE0B5675-91B5-43DA-9AD7-04CEAFE78A11}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -43,14 +47,43 @@ Global
 		{BCCEAFB5-DBDD-4394-A5A2-4DC85DAA1747}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCCEAFB5-DBDD-4394-A5A2-4DC85DAA1747}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCCEAFB5-DBDD-4394-A5A2-4DC85DAA1747}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BC8919E-D584-489F-AEC6-DE0DD4480070}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BC8919E-D584-489F-AEC6-DE0DD4480070}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BC8919E-D584-489F-AEC6-DE0DD4480070}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BC8919E-D584-489F-AEC6-DE0DD4480070}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D64CA73B-6923-4A91-A0B1-01A3A0FDE7A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D64CA73B-6923-4A91-A0B1-01A3A0FDE7A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D64CA73B-6923-4A91-A0B1-01A3A0FDE7A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D64CA73B-6923-4A91-A0B1-01A3A0FDE7A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CCA53FF-5CEE-4478-AD4F-8CF4FEEE1BEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CCA53FF-5CEE-4478-AD4F-8CF4FEEE1BEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CCA53FF-5CEE-4478-AD4F-8CF4FEEE1BEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CCA53FF-5CEE-4478-AD4F-8CF4FEEE1BEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D33E21B1-670E-4C79-BA1A-387158B8FA9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D33E21B1-670E-4C79-BA1A-387158B8FA9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D33E21B1-670E-4C79-BA1A-387158B8FA9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D33E21B1-670E-4C79-BA1A-387158B8FA9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06AB6B3E-984E-4E61-A8E6-CDF3D8E0E97C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06AB6B3E-984E-4E61-A8E6-CDF3D8E0E97C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06AB6B3E-984E-4E61-A8E6-CDF3D8E0E97C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06AB6B3E-984E-4E61-A8E6-CDF3D8E0E97C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{219AC8D2-6668-4769-9540-B72FA2E5B19D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{219AC8D2-6668-4769-9540-B72FA2E5B19D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{219AC8D2-6668-4769-9540-B72FA2E5B19D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{219AC8D2-6668-4769-9540-B72FA2E5B19D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{82DE422E-E723-4CD0-8627-2DDF62B8A1CE} = {42A39633-A6DC-4F5B-BF2F-7D59BFF82CD6}
 		{CE0B5675-91B5-43DA-9AD7-04CEAFE78A11} = {42A39633-A6DC-4F5B-BF2F-7D59BFF82CD6}
 		{086E09FA-6EA2-4953-BF93-7D04DDA0544D} = {C7A65954-9606-4B82-BD5B-63B635821ADD}
 		{BCCEAFB5-DBDD-4394-A5A2-4DC85DAA1747} = {C7A65954-9606-4B82-BD5B-63B635821ADD}
+		{9BC8919E-D584-489F-AEC6-DE0DD4480070} = {362E5D37-DDAB-443A-93C4-354A55FFD0FB}
+		{D64CA73B-6923-4A91-A0B1-01A3A0FDE7A1} = {BDCA1AE0-DCDE-428A-A5D3-084F957F8893}
+		{1CCA53FF-5CEE-4478-AD4F-8CF4FEEE1BEB} = {BDCA1AE0-DCDE-428A-A5D3-084F957F8893}
+		{D33E21B1-670E-4C79-BA1A-387158B8FA9D} = {BDCA1AE0-DCDE-428A-A5D3-084F957F8893}
+		{06AB6B3E-984E-4E61-A8E6-CDF3D8E0E97C} = {C7A65954-9606-4B82-BD5B-63B635821ADD}
+		{219AC8D2-6668-4769-9540-B72FA2E5B19D} = {42A39633-A6DC-4F5B-BF2F-7D59BFF82CD6}
 	EndGlobalSection
 EndGlobal

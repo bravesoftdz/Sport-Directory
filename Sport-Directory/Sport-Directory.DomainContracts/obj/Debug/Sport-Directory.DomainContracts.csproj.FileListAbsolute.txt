@@ -1,0 +1,5 @@
+C:\Users\JH\Source\Repos\Sport-Directory\Sport-Directory\Sport-Directory.DomainContracts\bin\Debug\Sport-Directory.DomainContracts.dll
+C:\Users\JH\Source\Repos\Sport-Directory\Sport-Directory\Sport-Directory.DomainContracts\bin\Debug\Sport-Directory.DomainContracts.pdb
+C:\Users\JH\Source\Repos\Sport-Directory\Sport-Directory\Sport-Directory.DomainContracts\obj\Debug\Sport-Directory.DomainContracts.csprojResolveAssemblyReference.cache
+C:\Users\JH\Source\Repos\Sport-Directory\Sport-Directory\Sport-Directory.DomainContracts\obj\Debug\Sport-Directory.DomainContracts.dll
+C:\Users\JH\Source\Repos\Sport-Directory\Sport-Directory\Sport-Directory.DomainContracts\obj\Debug\Sport-Directory.DomainContracts.pdb

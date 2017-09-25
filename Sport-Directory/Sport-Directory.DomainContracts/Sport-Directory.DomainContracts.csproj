@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6B89012E-B003-47D9-8825-75CFA5341E5E}</ProjectGuid>
+    <ProjectGuid>{D33E21B1-670E-4C79-BA1A-387158B8FA9D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Sport_Directory.DomainContracts</RootNamespace>
@@ -40,7 +40,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Authentication\GetUserQuery.cs" />
+    <Compile Include="Authentication\LoginQuery.cs" />
+    <Compile Include="Authentication\LogoutQuery.cs" />
+    <Compile Include="Mandator\GetMandatorSettingQuery.cs" />
+    <Compile Include="Mandator\GetMandatorSettingsQuery.cs" />
+    <Compile Include="Mandator\GetMandatorUidQuery.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Permission\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -25,14 +25,14 @@ namespace Sport_Directory.Data
             return session.User.MandatorUID;
         }
 
-        public List<MandatorSetting> GetMandatorSettings(Guid mandatorUid)
+        public IEnumerable<MandatorSetting> GetMandatorSetting(Guid mandatorUid, string key = null)
         {
-            return _context.MandatorSetting.Where(ms => ms.MandatorUID == mandatorUid).ToList();
-        }
+            if (string.IsNullOrEmpty(key))
+            {
+                return _context.MandatorSetting.Where(ms => ms.MandatorUID == mandatorUid);
+            }
 
-        public MandatorSetting GetMandatorSetting(Guid mandatorUid, string key)
-        {
-            return _context.MandatorSetting.FirstOrDefault(ms => ms.MandatorUID == mandatorUid && ms.Key == key);
+            return _context.MandatorSetting.Where(ms => ms.MandatorUID == mandatorUid && ms.Key == key);
         }
     }
 }

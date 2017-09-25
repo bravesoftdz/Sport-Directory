@@ -1,0 +1,5 @@
+C:\Users\JH\Source\Repos\Sport-Directory\Sport-Directory\Sport-Directoy.DomainObjects\bin\Debug\Sport-Directoy.DomainObjects.dll
+C:\Users\JH\Source\Repos\Sport-Directory\Sport-Directory\Sport-Directoy.DomainObjects\bin\Debug\Sport-Directoy.DomainObjects.pdb
+C:\Users\JH\Source\Repos\Sport-Directory\Sport-Directory\Sport-Directoy.DomainObjects\obj\Debug\Sport-Directoy.DomainObjects.dll
+C:\Users\JH\Source\Repos\Sport-Directory\Sport-Directory\Sport-Directoy.DomainObjects\obj\Debug\Sport-Directoy.DomainObjects.pdb
+C:\Users\JH\Source\Repos\Sport-Directory\Sport-Directory\Sport-Directoy.DomainObjects\obj\Debug\Sport-Directoy.DomainObjects.csprojResolveAssemblyReference.cache

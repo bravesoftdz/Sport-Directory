@@ -1,0 +1,4 @@
+C:\Users\JH\Source\Repos\Sport-Directory\Sport-Directory\Sport-Directory.Common\bin\Debug\Sport-Directory.Common.dll
+C:\Users\JH\Source\Repos\Sport-Directory\Sport-Directory\Sport-Directory.Common\bin\Debug\Sport-Directory.Common.pdb
+C:\Users\JH\Source\Repos\Sport-Directory\Sport-Directory\Sport-Directory.Common\obj\Debug\Sport-Directory.Common.dll
+C:\Users\JH\Source\Repos\Sport-Directory\Sport-Directory\Sport-Directory.Common\obj\Debug\Sport-Directory.Common.pdb
